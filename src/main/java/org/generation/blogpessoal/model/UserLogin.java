@@ -13,6 +13,8 @@ public class UserLogin {
 	private String senha;
 
 	private String token;
+	
+	private String tipo;
 
 	
 	public long getId() {
@@ -61,5 +63,12 @@ public class UserLogin {
 
 	public void setSenha(String senha) {
 		this.senha = senha;
+	}
+	public String getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
 	}
 }
